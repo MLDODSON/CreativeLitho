@@ -1,0 +1,213 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+background: url(clbackground.jpg);
+text-align:center;
+background-size:cover;
+}
+
+.navbar-inverse{
+	background: #020f84;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand:hover {
+	color: #9fe3f9;
+}
+
+.navbar-right {
+	margin-left: 0px;
+}
+
+#the_footer{
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-size: 15pt;
+	background-color: #020f84;
+	color: #FCF8F8;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+h1{
+	text-align: center;
+	font-family: Droid Serif;
+	font-style: normal;
+	font-size: 28pt;
+	color: #900;
+	float: none;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-shadow: 3px 3px 3px rgba(197,189,190,1.00);
+} 
+
+h5 {
+	font-family: Source Sans Pro;
+	color: white;
+	font-weight: normal;
+	font-size: 11pt;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+
+.bullet {
+	color: #9fe3f9;
+	font-size: 16pt;
+}
+
+.it {
+	color: white;
+	font-size: 10pt;
+}
+
+.sonic {
+	color: #F9E528;
+}
+
+.envelope {
+	color: white;
+}
+
+.envelope:hover { 
+    color: #9fe3f9;
+	background-color: transparent;
+}
+
+.line {
+   display: block;
+   position: relative;
+   margin-top: 25px;
+   margin-bottom: 25px;
+   height: 0;
+   width: 85%;
+   max-height: 0;
+   font-size: 1px;
+   line-height: 0;
+   clear: both;
+   border: none;
+   border-top: 1px solid #aaaaaa;
+   border-bottom: 1px solid #ffffff; 
+   background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
+}
+
+
+hr { 
+   display: block;
+   position: relative;
+   margin-bottom: 25px;
+   height: 0;
+   width: 85%;
+   max-height: 0;
+   font-size: 1px;
+   line-height: 0;
+   clear: both;
+   border: none;
+   border-top: 1px solid #aaaaaa;
+   border-bottom: 1px solid #ffffff; 
+   background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
+} 
+
+@keyframes upper {
+  0%,19.999%,22%,62.999%,64%, 64.999%,70%,100% {
+    opacity:.99; text-shadow: 0 0 80px red,0 0 30px FireBrick,0 0 6px DarkRed;
+  }
+  20%,21.999%,63%,63.999%,65%,69.999% {
+    opacity:0.4; text-shadow: none; 
+  }
+}
+@keyframes lower {
+  0%,12%,18.999%,23%,31.999%,37%,44.999%,46%,49.999%,51%,58.999%,61%,68.999%,71%,85.999%,96%,100% {
+    opacity:0.99; text-shadow: 0 0 80px red,0 0 30px FireBrick,0 0 6px DarkRed;
+  }
+  19%,22.99%,32%,36.999%,45%,45.999%,50%,50.99%,59%,60.999%,69%,70.999%,86%,95.999% { 
+    opacity:0.4; text-shadow: none; 
+  }
+}
+
+.mySlides {
+	display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  padding-top: 90px;
+}
+
+/* Caption text */
+.text {
+  font-family: Source Sans Pro;
+  color: #520594;
+  font-size: 22pt;
+  word-spacing: 10px;
+  padding: 8px 12px;
+  position: absolute;
+  font-weight: 800;
+  bottom: 8px;
+  width: 100%;
+  text-align: left;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  font-family: Source Sans Pro;
+  color: #520594;
+  font-size: 14pt;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #f2f0ed;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #f25435;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 6.5s;
+  animation-name: fade;
+  animation-duration: 6.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
