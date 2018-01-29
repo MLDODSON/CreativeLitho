@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+background: none;
+text-align:center;
+background-size:cover;
+}
+
+.navbar-inverse{
+	background: #020f84;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand:hover {
+	color: #9fe3f9;
+}
+
+.navbar-right {
+	margin-left: 0px;
+}
+
+#the_footer{
+	text-align: center;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-size: 15pt;
+	background-color: #020f84;
+	color: #FCF8F8;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+h1{
+	text-align: center;
+	font-family: Droid Serif;
+	font-style: normal;
+	font-size: 28pt;
+	color: #900;
+	float: none;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-shadow: 3px 3px 3px rgba(197,189,190,1.00);
+} 
+
+h5 {
+	font-family: Source Sans Pro;
+	color: white;
+	font-weight: normal;
+	font-size: 11pt;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+
+.bullet {
+	color: #9fe3f9;
+	font-size: 16pt;
+}
+
+.it {
+	color: white;
+	font-size: 10pt;
+}
+
+.sonic {
+	color: #F9E528;
+}
+
+.envelope {
+	color: white;
+}
+
+.envelope:hover { 
+    color: #9fe3f9;
+	background-color: transparent;
+}
+
+.line {
+   display: block;
+   position: relative;
+   margin-top: 25px;
+   margin-bottom: 25px;
+   height: 0;
+   width: 85%;
+   max-height: 0;
+   font-size: 1px;
+   line-height: 0;
+   clear: both;
+   border: none;
+   border-top: 1px solid #aaaaaa;
+   border-bottom: 1px solid #ffffff; 
+   background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
+}
+
+
