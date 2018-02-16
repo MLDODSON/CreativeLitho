@@ -1,0 +1,167 @@
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(1rem); }
+  80% {
+    transform: translateX(-1rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem); }
+  80% {
+    transform: translateX(1rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  /*font-size: 16px;*/
+  line-height: 1.7;
+  color: #777;
+}
+
+.navbar-inverse{
+	background: #020f84;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: rgb(210, 223, 242);
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand:hover {
+	background-color: #010ec4;
+}
+
+.navbar-right {
+	margin-left: 0px;
+}
+
+nav li:hover {
+  background-color: #010ec4;
+}
+
+.header {
+	padding-top: 5rem;
+}
+
+.products {
+	display: block;
+	color: #020f84;
+    font-size: 3.5rem;
+    font-weight: 800;
+    letter-spacing: 1.75rem;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 8rem;
+	margin-bottom: 8rem;
+	text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+    animation: moveInRight 1s ease-out; 
+}
+
+.typetwo {
+	display: block;
+	font-size: 3rem;
+	font-weight: 600;
+	color: #f91b02;
+	animation: moveInLeft 1s ease-out;
+	padding-top: 1rem;
+}
+
+.cl {
+	color: #020f84;
+}
+
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #020f84;
+   color: white;
+   text-align: center;
+   padding-top: .5rem;
+}
+
+.bullet {
+	color: white;
+	font-size: 16pt;
+}
+
+.it {
+	color: white;
+	font-size: 10pt;
+}
+
+.sonic {
+	color: white;
+}
+
+
+h2{
+	margin-bottom: 4rem;
+	line-height: 5rem;
+	text-align: center;
+}
+
+.cards {
+	margin-top: 6rem;
+	margin-bottom: 6rem;
+}
+
+.row {
+	margin-top: 8rem;
+}
+
+h3{
+	text-align: left;
+	font-family: Source Sans Pro;
+	font-size: 14pt;
+	color: #020f84;
+	margin-bottom: 2.5rem;
+	margin-left: 3rem;
+	margin-right: 3rem;
+	padding-top: 12px;
+	padding-bottom: .4rem;
+	line-height: 4rem;
+}
+
+h4{
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+h5 {
+	font-family: Source Sans Pro;
+	color: white;
+	font-weight: normal;
+	font-size: 11pt;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: .5rem;
+	padding-left: 0px;
+}
+
+
+.envelope:hover { 
+    color: #9fe3f9;
+	background-color: transparent;
+}
+
+#art {
+	background-color: #e3ecfc;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
